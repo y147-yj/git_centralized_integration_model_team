@@ -24,7 +24,9 @@ public class Calculator {
 
         return result;
     }
-} //충돌
+} // 충돌
+
+	// 충돌2
 		public class CalculatorInput {
     public static void getInputAndCalculate() {
 		 Scanner scanner = new Scanner(System.in);
