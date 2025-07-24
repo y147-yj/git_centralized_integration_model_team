@@ -43,7 +43,7 @@ public class Calculator {
         if (!Double.isNaN(result)) {
             System.out.println("결과: " + result);
         }
-
+//충돌 3
         scanner.close();
     }
 }
