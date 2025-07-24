@@ -35,3 +35,15 @@ public class Calculator {
 
         System.out.print("두 번째 숫자를 입력하세요: ");
         double num2 = scanner.nextDouble();
+		        System.out.print("사용할 연산자를 입력하세요 (+, -, *, /): ");
+        char operator = scanner.next().charAt(0);
+
+        double result = Calculator.performOperation(num1, num2, operator);
+
+        if (!Double.isNaN(result)) {
+            System.out.println("결과: " + result);
+        }
+
+        scanner.close();
+    }
+}
