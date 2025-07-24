@@ -27,6 +27,7 @@ public class Calculator {
 } // 충돌
 
 	// 충돌2
+	// 파란색
 		public class CalculatorInput {
     public static void getInputAndCalculate() {
 		 Scanner scanner = new Scanner(System.in);
